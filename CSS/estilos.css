@@ -5,10 +5,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    background-color: #fff;
 }
 /* estructura lateral  izquierda */
 aside{
-    flex: 40px;
+    flex: 50px;
     background-color: rgb(251, 251, 251);
     padding: 20px;
 }
@@ -30,18 +31,42 @@ ul{
 ul li{
    padding: 5px;; 
 }
-ul li:hover{
+/* ul li:hover{
 color: black;
-}
+} */
 
 .idiomas{
     background-color: rgb(7, 7, 7);
     color:#fff;
     margin: 0px;
+    height: 300px;
+    padding: 10px;
+   text-align: center;
 }
+.idiomas > ul > li > img{
+    width: 30px !important;display: inline-flex;
+}
+.idiomas > ul > li {
+display:inline;
+}
+.idiomas > ul{
+    list-style :none;
+}
+
 /* estructura lateral  derecha */
 section{
     flex: 70%;
-    background-color: khaki;
+    /* background-color: khaki; */
     padding: 20px;
+}
+.titulo{
+    background-color: rgb(35, 33, 33);
+    color :#fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+     
+}
+.perfil{
+    padding: 10px;
 }
