@@ -41,7 +41,7 @@ ul li{
    text-align: center;
 }
 .idiomas > ul > li > img{
-    width: 30px !important; 
+    width: 25px !important; 
 }
 .idiomas > ul > li {
 display:block;
@@ -104,4 +104,20 @@ section{
     font-size: 13px;
     text-align: center;
     padding: 10px;
+}
+
+/* tamaño telefono */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column !important;
+    }
+   
+}
+/* tamaño tableta */
+@media (max-width: 900px) {
+    body {
+        display: flex;
+    flex-wrap: nowrap;
+    }
+    
 }
