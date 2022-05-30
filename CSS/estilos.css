@@ -44,7 +44,7 @@ color: black;
    text-align: center;
 }
 .idiomas > ul > li > img{
-    width: 30px !important;display: inline-flex;
+    width: 30px !important; 
 }
 .idiomas > ul > li {
 display:inline;
@@ -69,4 +69,12 @@ section{
 }
 .perfil{
     padding: 10px;
+}
+/* utilizamos una clase para varios elementos */
+.estudio > img{
+    /* ancho a las imagenes de los estudios  */
+    width: 60px !important; 
+}
+.fuente-negrita{
+    font-weight: 900;
 }
