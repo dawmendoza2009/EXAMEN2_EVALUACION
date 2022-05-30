@@ -84,3 +84,24 @@ section{
 .fuente-negrita{
     font-weight: 900;
 }
+/* SKILL */
+.skill{
+    margin-left: auto;
+    margin-right: auto;
+    
+    display:flex;
+    /* establecemos centrado */
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.skill > h6{   border-radius: 10px;/*border redondeado de la caja*/ 
+    border-color: rgb(160, 139, 8);
+    background-color:rgb(160, 139, 8) ;         
+    width: 70px;
+    margin: 10px;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+}
