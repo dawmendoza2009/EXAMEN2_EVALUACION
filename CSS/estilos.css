@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding:0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: 100%;
     background-color: #fff;
 }
@@ -31,9 +31,6 @@ ul{
 ul li{
    padding: 5px;; 
 }
-/* ul li:hover{
-color: black;
-} */
 
 .idiomas{
     background-color: rgb(7, 7, 7);
@@ -47,10 +44,16 @@ color: black;
     width: 30px !important; 
 }
 .idiomas > ul > li {
-display:inline;
+display:block;
 }
 .idiomas > ul{
     list-style :none;
+}
+.idiomas >.ul-intereses{
+    list-style :none;
+}
+.idiomas> .ul-intereses > li{
+    display: inline;
 }
 
 /* estructura lateral  derecha */
@@ -69,6 +72,9 @@ section{
 }
 .perfil{
     padding: 10px;
+}
+.perfil-alumno{
+    visibility:hidden; 
 }
 /* utilizamos una clase para varios elementos */
 .estudio > img{
