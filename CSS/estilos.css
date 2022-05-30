@@ -6,21 +6,42 @@ body{
     flex-wrap: wrap;
     height: 100%;
 }
-/* .row{
-   
-    display: flex;
-    flex-wrap: wrap;
-} */
+/* estructura lateral  izquierda */
 aside{
     flex: 40px;
-    background-color: bisque;
+    background-color: rgb(251, 251, 251);
     padding: 20px;
 }
+img{
+    /* se establece ancho a la imagen  */
+    width: 200px;    
+}
+.contacto{
+background-color: rgb(192, 177, 15);
+padding: 10px 20px;
+color:#fff;
+font-size: 13px;
+margin: 0px;
+}
+/* formato al listado */
+ul{
+    list-style :none;
+}
+ul li{
+   padding: 5px;; 
+}
+ul li:hover{
+color: black;
+}
+
+.idiomas{
+    background-color: rgb(7, 7, 7);
+    color:#fff;
+    margin: 0px;
+}
+/* estructura lateral  derecha */
 section{
     flex: 70%;
     background-color: khaki;
     padding: 20px;
-}
-img{
-    width: 200px;;
 }
