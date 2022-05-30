@@ -121,3 +121,18 @@ section{
     }
     
 }
+/* estilos para el formulario de contacto*/
+form{
+background-color: rgb(125, 123, 123);
+width: 400px;
+padding: 20px;
+color: #fff;
+}
+input, textarea,button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+button{
+    width: 400px;
+}
